@@ -1,0 +1,97 @@
+/* styles for body */
+body {
+    font-family: Poppins;
+    font-size: 20px;
+    background-color: rgb(78, 82, 78);
+    text-align: center;
+    background: url(./fc.jpeg) fixed no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+}
+
+/* styles for nav-bar */
+.nav-link {
+    font-size: 1.1em !important;
+}
+/* styles for header */
+h1 {
+    font-size: 3rem;
+}
+
+/* input fields */
+.size {
+    height: 20px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid rgb(185, 214, 203);
+    background-color: transparent;
+    transition: background-color 5500s ease-in-out 0s;
+}
+label{
+    text-align: right;
+}
+input, select, textarea{
+    color: #ffffff;
+}
+
+textarea:focus, input:focus {
+    color: #ffffff;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    color: white;
+    -webkit-text-fill-color: rgb(253, 253, 253);
+}
+
+input[type="number"] {
+    font-size: 20px;
+}
+
+.size:focus {
+    outline: none;
+    background-color: rgb(105, 196, 161);
+}
+
+/* button */
+button {
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(118, 122, 121);
+    box-shadow: 2px 3px rgb(67, 70, 69);
+}
+button:focus {
+    outline: none;
+}
+
+/* Styles for fuel cost calculator */
+.main{
+    display: inline-block;
+    background-color:rgba(29, 28, 28, 0.4);
+    border-radius: 10px;
+    border: 5px double white;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+@media (min-width:769px) and (max-width: 826px) {
+	body{
+			width: fit-content;
+	}
+}
+
+@media (max-width: 423px) {
+	body{
+			width: fit-content;
+	}
+}
+
+@media (max-width: 895px) {
+    label {
+        text-align: center;
+    }
+    input {
+        margin: 0 auto;
+    }
+}
