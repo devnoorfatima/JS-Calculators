@@ -1,0 +1,97 @@
+ /* styles for body */
+ body {
+     font-family: Poppins;
+     font-size: 20px;
+     background-color: rgb(78, 82, 78);
+     text-align: center;
+     background: url(./bg.jpeg) fixed no-repeat;
+     background-size: cover;
+ }
+
+ /* styles for nav-bar */
+ .nav-link {
+     font-size: 1.1em !important;
+ }
+
+ /* styles for about */
+ /* #icon {
+     color: rgb(0, 0, 0);
+     position: fixed;
+     right: 0;
+     bottom: 0;
+ } */
+ /* styles for header */
+ h1 {
+     font-size: 3rem;
+ }
+
+ /* styles for form */
+ .main {
+     display: inline-block;
+     background-color: rgb(105, 196, 161);
+     border-radius: 10px;
+     border: 5px double rgb(66, 65, 65);
+ }
+
+ /* input fields */
+ .size {
+     width: 250px;
+     border: none;
+     border-bottom: 1px solid rgb(109, 214, 197);
+     background-color: rgb(105, 196, 161);
+     transition: background-color 5500s ease-in-out 0s;
+ }
+
+ input[type="text"] {
+     font-size: 20px;
+ }
+
+ input[type="number"] {
+     font-size: 20px;
+ }
+
+ .size:focus {
+     outline: none;
+     background-color: rgb(105, 196, 161);
+ }
+
+ /* button */
+ button {
+     font-size: 25px;
+     border: 1px solid black;
+     border-radius: 3px;
+     background-color: rgb(56, 172, 127);
+     box-shadow: 2px 3px rgb(48, 150, 111);
+ }
+
+ /* styles for labels */
+ label {
+     margin: 0;
+     text-align: right;
+ }
+
+ button:focus {
+     outline: none;
+ }
+
+ /* media queries */
+ @media (min-width:769px) and (max-width: 826px) {
+     body {
+         width: fit-content;
+     }
+ }
+
+ @media (max-width: 460px) {
+     body {
+         width: fit-content;
+     }
+ }
+
+ @media (max-width: 575px) {
+     label {
+         text-align: center;
+     }
+     input {
+         margin: 0 auto;
+     }
+ }
