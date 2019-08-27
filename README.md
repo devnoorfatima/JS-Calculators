@@ -26,7 +26,7 @@ This repo contains four types of calculators.
 - By mathematical operations it gives the results.
 - It calculates the Gas mileage and the total cost of the of the gas.
 
-## 3.Fuel Cost Calculator
+## 4.Fuel Cost Calculator
 - This calculator has input fields that get the data by the user.
 - Input fields include Trip Distance ,Fuel Efficiency ,Fuel Price.
 - The data that comes from these fields is used to give results.
