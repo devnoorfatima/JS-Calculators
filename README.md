@@ -32,3 +32,5 @@ This repo contains four types of calculators.
 - The data that comes from these fields is used to give results.
 - By mathematical operations it gives the results.
 - It calculates the fuel needed for the trip and the price of the fuel.
+
+See it live here: https://devnoorfatima.github.io/Projects/calculators/
